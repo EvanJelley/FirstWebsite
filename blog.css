@@ -1,0 +1,63 @@
+body {
+  font-family: 'Baskerville', serif;
+  margin: 0;
+  padding: 0;
+  background-color: #C4C5BA;
+  color: #1B1B1B;
+}
+
+header {
+  background-color: #595f39;
+  color: #E4E4DE;
+  padding: 10px;
+  text-align: center;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.post {
+  background-color: #E4E4DE;
+  margin: 20px 20px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.post h2 {
+    color: #1B1B1B;
+  }
+
+.post p {
+    color: #1B1B1B;
+  }
+
+.post-thumbnail-image {
+    width: 200px;
+    height: auto;
+}
+
+.post-meta {
+  color: #1B1B1B;
+  font-size: .7em;
+  line-height: .5;
+  padding-top: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+blockquote.poetry{
+  font-family: 'Baskerville', serif;
+  font-style: italic;
+  font-size: 1.1em;
+  text-align: center;
+  line-height: 1.2;
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
