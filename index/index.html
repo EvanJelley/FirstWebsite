@@ -8,7 +8,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
     <a class="navbar-brand" href="index.html">Evan Jelley</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,10 +35,10 @@
 
   <div class="container">
     <div class="row">
-      <div id="bio" class="col-12 col-lg-6 text-center">
+      <div id="bio" class="col-12 col-lg-5 text-center">
         <img src="../media/profilePhoto.jpg" class="img-fluid profile-img">
       </div>
-      <div class="col-12 col-lg-6 section">
+      <div class="col-12 col-lg-5 section">
         <h2>
           Favorite Music Artists
         </h2>
@@ -62,11 +62,23 @@
       </div>
       <div>
       </div>
+      <div id="email" class="col-12 col-lg-2 text-center">
+        <aside>
+          <form id="emailForm" action="email.php" method="post">
+            <fieldset>
+              <legend>Subscribe to my email list!</legend>
+              <label for="email">Email:</label><br>
+              <input type="email" id="email" name="email"><br>
+              <input type="submit" value="Submit">
+            </fieldset>
+          </form>
+        </aside>
+      </div>
     </div>
   </div>
 
   <footer>
-    <div class="social-media">
+    <div class="footer-social-media">
       <a href="https://twitter.com/EvanisJames" class="btn">
         <img src="../socialLogos/xLogo.png" class="img-fluid" alt="TwitterLogo">
       </a>
