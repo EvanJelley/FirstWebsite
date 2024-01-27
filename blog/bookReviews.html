@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -16,15 +16,14 @@
   <meta property="twitter:title" content="Evan Jelley - Book List">
   <meta property="twitter:description" content="Personal Website">
   <meta property="twitter:image" content="LINK_TO_IMAGE">
-
-  <title>Evan Jelley - Book List</title>
-
+  
+  <title>Evan Jelley - Book Reports</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="../css/standard.css">
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-light">
     <a class="navbar-brand" href="index.html">Evan Jelley</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,65 +31,49 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home</a>
-        </li>
         <li class="nav-item">
+          <a class="nav-link" href="../index/index.html">Home</a>
+        </li>
+        <li class="nav-item active">
           <a class="nav-link" href="bookReviews.html">Book Reviews</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="poetryIndex.html">Poetry</a>
+          <a class="nav-link" href="../poetry/poetryIndex.html">Poetry</a>
         </li>
       </ul>
     </div>
   </nav>
 
   <header>
-    <h1>Books I have Read</h1>
+    <h1>Book Reports</h1>
   </header>
 
   <div class="container">
-    <div class="row">
-      <div class="col-12 col-lg-6">
-        <div class="post">
-          <h2>2023</h2>
-          <h4>Classics</h4>
-          <ul>
-            <li>The Iliad - <i>Homer</i> <small>(Robert Fagles translation)</small></li>
-            <li>The Odyssey - <i>Homer</i> <small>(Robert Fagles translation)</small></li>
-          </ul>
-          <h4>History</h4>
-          <ul>
-            <li>The Mysterious Case of Rudoplph Diesel - <i>Douglas Brunt</i></li>
-          </ul>
-          <h4>Miscellaneous</h4>
-          <ul>
-            <li>Letters to a Young Mathematician - <i>Ian Stewart</i></li>
-          </ul>
-          <h4>Software</h4>
-          <ul>
-            <li>Code - <i>Charles Petzold</i></li>
-            <li>Python for Everybody - <i>Charles Severance</i></li>
-            <li>Introduction to Networking - <i>Charles Severance</i></li>
-            <li>Introduction to Computation and Programing Using Python - <i>John Guttag</i></li>
-          </ul>
+    <div class="post">
+      <a href="../blog/theIliad.html">
+        <div class="overlay-container">
+          <img src="../media/bookImages/Iliad.png" class="img-fluid post-thumbnail-image">
+          <div class="overlay-text">
+            <h2>Where the West Begins</h2>
+            <h4>The Iliad - Part One</h4>
+            <p>Foundational has unfortunately become an overused epithet to ascribe significance to often forgotten or...</p>
+          </div>
+        </a>
+          <p class="post-meta">Published on: December, 26th, 2023</p>
         </div>
-      </div>
-      <div class="col-12 col-lg-6">
-        <div class="post">
-          <h2>2024</h2>
-          <h4>Classics</h4>
-          <ul>
-            <li>The Adventures of Tom Sawyer - <i>Mark Twain</i></li>
-          </ul>
-          <h4>Computers</h4>
-          <ul>
-            <li>HTML & CSS: Design and Build Websites - <i>Jon Duckett</i></li>
-          </ul>
-        </div>
-      </div>
     </div>
+
+    <!-- Example blog post 2 -->
+    <div class="post">
+      <h2>Post Title 2</h2>
+      <p>Published on: Date 2</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi...</p>
+      <a href="theIliad.html">Read more</a>
+    </div>
+
+    <!-- Repeat the structure for each blog post -->
   </div>
+
 
   <footer>
     <div class="footer-social-media">

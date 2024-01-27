@@ -2,7 +2,23 @@
 <html>
 
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="METATAGURL">
+  <meta property="og:title" content="Evan Jelley">
+  <meta property="og:description" content="Personal Website">
+  <meta property="og:image" content="LINK_TO_IMAGE">
+
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="METATAGURL">
+  <meta property="twitter:title" content="Evan Jelley">
+  <meta property="twitter:description" content="Personal Website">
+  <meta property="twitter:image" content="LINK_TO_IMAGE">
+
   <title>Evan Jelley</title>
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="../css/standard.css">
 </head>
@@ -20,61 +36,53 @@
           <a class="nav-link" href="index.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="bookReviews.html">Book Reviews</a>
+          <a class="nav-link" href="../blog/bookReviews.html">Book Reviews</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="poetryIndex.html">Poetry</a>
+          <a class="nav-link" href="../poetry/poetryIndex.html">Poetry</a>
         </li>
       </ul>
     </div>
   </nav>
 
   <header>
-    <h1>Evan Jelley</h1>
+    <h1></h1>
   </header>
 
   <div class="container">
+
     <div class="row">
-      <div id="bio" class="col-12 col-lg-5 text-center">
+      <div id="profile" class="col-12 col-lg-8 text-center">
         <img src="../media/profilePhoto.jpg" class="img-fluid profile-img">
       </div>
-      <div class="col-12 col-lg-5 section">
-        <h2>
-          Favorite Music Artists
-        </h2>
-        <ul>
-          <li>Bob Dylan</li>
-          <li>Johann Sebastian Bach</li>
-          <li>The Beatles</li>
-          <li>Ryan Adams</li>
-          <li>Ludwig van Beethoven</li>
-        </ul>
-        <h2>
-          Favorite Movies
-        </h2>
-        <ol>
-          <li>It's a Wonderful Life</li>
-          <li>Star Wars: The Last Jedi</li>
-          <li>Citizen Kane</li>
-          <li>Lord of the Rings: The Return of the King</li>
-          <li>White Christmas</li>
-        </ol>
-      </div>
-      <div>
-      </div>
-      <div id="email" class="col-12 col-lg-2 text-center">
-        <aside>
-          <form id="emailForm" action="email.php" method="post">
-            <fieldset>
-              <legend>Subscribe to my email list!</legend>
-              <label for="email">Email:</label><br>
-              <input type="email" id="email" name="email"><br>
-              <input type="submit" value="Submit">
-            </fieldset>
-          </form>
-        </aside>
+      <div id="email" class="col-12 col-lg-4 text-center">
+        <form id="emailForm" action="email.php" method="post">
+          <fieldset>
+            <legend>Get my next post in your inbox!</legend>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <input type="submit" value="Submit">
+          </fieldset>
+        </form>
       </div>
     </div>
+
+    <div class="row">
+      <div class="col-12 section">
+        <a href="../blog/theIliad.html">
+          <div class="overlay-container">
+            <img src="../media/bookImages/Iliad.png" class="img-fluid post-thumbnail-image">
+            <div class="overlay-text">
+              <h2>Where the West Begins</h2>
+              <h4>The Iliad - Part One</h4>
+              <p>Foundational has unfortunately become an overused epithet to ascribe significance to often forgotten
+                or...</p>
+            </div>
+        </a>
+        <p class="post-meta">Published on: December, 26th, 2023</p>
+      </div>
+    </div>
+  </div>
   </div>
 
   <footer>

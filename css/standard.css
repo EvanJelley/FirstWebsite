@@ -27,6 +27,36 @@ nav {
   overflow: hidden;
 }
 
+/* Post Image Overlay */
+.overlay-container {
+  position: relative;
+}
+
+.overlay-container img {
+  transition: filter 0.5s ease-in-out; /* Transition effect */
+}
+
+.overlay-container:hover img {
+  filter: blur(3px) grayscale(); /* Apply blur on hover */
+}
+
+.overlay-text {
+  position: absolute;
+  width: 100%; /* Take up the whole horizontal length */
+  bottom: 0; /* Sit along the body of the container */
+  left: 0;
+  padding: 10px; /* Add some padding if needed */
+  text-shadow: 1px 1px #2d2d2d; /* Add text shadow */
+  color: white; /* Change the color as needed */
+  opacity: 0; /* Start invisible */
+  transition: opacity 0.5s ease-in-out; /* Transition effect */
+  text-align: left; /* Center the text horizontally */
+}
+
+.overlay-container:hover .overlay-text {
+  opacity: 1;
+}
+
 .profile-img {
   padding-top: 10px;
 }
@@ -45,6 +75,18 @@ nav {
   border-radius: 5px;
 }
 
+blockquote.poetry{
+  font-family: 'Baskerville', serif;
+  font-style: italic;
+  font-size: 1.1em;
+  text-align: center;
+  line-height: 1.2;
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Footer Rules */
 footer {
   background-color: #C4C5BA;
   color: white;
